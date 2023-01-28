@@ -1,0 +1,435 @@
+body {
+  background-color: #9c9c9c;
+  text-align: center;
+  color: white;
+  overflow: auto;
+}
+
+body p {
+  color: rgb(196, 194, 194);
+}
+body a {
+  text-decoration: none;
+}
+body a:hover{
+  color: white;
+
+}
+
+.nav-link{
+
+}
+.nav-link:hover{
+  color: white;
+}
+
+.bodyDive {
+  background-color: #132028;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 76%;
+  height: 300%;
+  border-radius: 45px;
+  padding-top: 2%;
+  margin-top: 3%;
+}
+a {
+  color: white;
+  font-weight: bold;
+}
+nav {
+  padding-top: 1%;
+  padding: 5%;
+}
+.nav-item {
+  margin: 20px;
+  font-size: 1.1em;
+}
+
+.nav-link.active {
+  color: white;
+}
+.nav-link {
+  color: gray;
+}
+.avatar {
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.avatarDiv,
+.divImageText {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  text-align: start;
+}
+.avatarDiv {
+  vertical-align: middle;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  background-color: #434444;
+  margin-right: 5%;
+  position: relative;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.jopclass {
+  color: gainsboro;
+  font-weight: lighter;
+  margin-bottom: 3%;
+}
+.nameclass {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 8%;
+}
+.infoclass {
+  color: rgb(196, 194, 194);
+  text-align: justify;
+}
+.firstSection {
+  margin-top: 5%;
+}
+
+.buttonhome {
+  background-color: #323333;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1.5%;
+  padding-bottom: 2%;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#cvbutton {
+  border: 3px solid #9c9c9c;
+}
+#contactbutton {
+  border: 2px solid white;
+  margin-left: 3%;
+}
+#contactbutton:hover {
+  background-color: white;
+  color: black;
+}
+#cvbutton:hover {
+  background-color: #9c9c9c;
+}
+.heaedingWhatDo {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: left;
+  margin-top: 5%;
+}
+.line {
+  height: 2px;
+  background-color: gray;
+  width: 105px;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: -4px;
+  text-align: left;
+  position: relative;
+  bottom: 15px;
+}
+.idline {
+  background-color: #9c9c9c;
+  width: 30px;
+}
+.mainLine {
+  text-align: left;
+  margin: 0% 9%;
+  margin-top: 7%;
+}
+
+.whatDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 2% 9%;
+}
+.insidwhat {
+  width: 45%;
+  text-align: justify;
+  margin-left: 3%;
+}
+h4 {
+  font-weight: bold;
+}
+.imgDiv2 {
+  margin-left: 5%;
+}
+
+.icon {
+  margin-right: 2%;
+}
+.footerDiv {
+  margin-top: 10%;
+  width: 100%;
+}
+footer {
+  margin-bottom: 5px;
+  padding-bottom: 1%;
+}
+.yearDiv {
+  border: 3px solid #9c9c9c;
+  border-radius: 30px;
+  display: inline-block;
+  padding: 0% 2.5%;
+  background-color: #212122;
+  position: relative;
+  left: -3%;
+  margin-top: 4%;
+}
+h6 {
+  display: inline-block;
+  font-size: 0.9em;
+}
+.year {
+  margin: auto auto;
+}
+.educationContainer {
+  border-left: 1px solid #434444;
+  border-bottom: 1px solid #434444;
+  width: 80%;
+  margin: 0% 10%;
+  padding-bottom: 1%;
+  text-align: start;
+}
+.place {
+  color: #7f7f80;
+  font-weight: 400;
+}
+.title,
+.descrip {
+  margin-left: 7%;
+}
+.descrip {
+  margin-top: 2%;
+  text-align: justify;
+}
+.title {
+  margin-top: 4%;
+}
+.sectionFirst {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 0% 3%;
+}
+.exp {
+  color: #7f7f80;
+  font-weight: 400;
+  font-size: 1em;
+}
+.exp,
+.resum {
+  margin-left: 7%;
+}
+.header {
+  background-color: #434444;
+  padding-top: 2.5%;
+  padding-bottom: 2.5%;
+  border-bottom: 2px solid white;
+  border-top: 2px solid white;
+  text-align: start;
+}
+#lastEducation,
+#last {
+  border-bottom: 0px solid black;
+}
+.linecoding {
+  height: 2px;
+  background-color: gray;
+  width: 163px;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: -4px;
+  text-align: left;
+  position: relative;
+  bottom: 15px;
+}
+.programming {
+  display: inline-block;
+  font-size: 1.2em;
+}
+.prece {
+  display: inline-block;
+  float: right;
+  font-size: 1em;
+  color: #878788;
+
+}
+.divbar {
+  width: 40%;
+  margin-left: 9%;
+  margin-right: 5%;
+
+  text-align: start;
+  margin-bottom: 0%;
+  padding: 0%;
+}
+.divbarRight{
+  width: 40%;
+  margin-right: 9%;
+  text-align: start;
+  margin-bottom: 0%;
+  padding: 0%;
+}
+.outBar {
+  border: 3px solid #434444;
+  width: 100%;
+  margin-top: 0%;
+  border-radius: 50px;
+
+}
+.inBar {
+  background-color: #9c9c9c;
+  border: 3px solid #212122;
+  height: 10px;
+  width: 95%;
+  position: relative;
+  border-radius: 50px;
+}
+.codeLine{
+  display: flex;
+  flex-flow: row;
+  margin-bottom: 2%;
+}
+#Line1{
+  width: 100%;
+}
+#Line2{
+  width: 95;
+}
+#Line4{
+  width: 50%;
+}
+#Line5{
+  width: 70%
+}
+#Line6{
+  width: 60%
+}
+#Line7{
+  width: 70%
+}
+#Line8{
+  width: 75%
+}
+.lineprojects{
+  height: 2px;
+  background-color: gray;
+  width: 90px;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: -4px;
+  text-align: left;
+  position: relative;
+  bottom: 15px;}
+  
+.projectline{
+  margin: 3% 9%;
+  display: flex;
+  flex-flow: row;
+
+}
+
+  .project{
+    display: flex;
+    flex-flow: column;
+    transition: transform 250ms;
+  }
+  .project:hover {
+    transform: translateY(-10px);
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;    
+  }
+  
+  .project img{
+    width: 35%;
+    margin: auto;
+  }
+  .projectInfo{
+    margin-top: 2%;
+    text-align: justify center;
+  }
+  .educationSection, .ExperienceSection{
+    width: 80%;
+  }
+
+  .projectHref{
+    width: 40%;
+    margin: auto auto;
+  }
+  
+  @media (max-width: 992px) {
+    body {
+      background-color: #212122;
+    }
+    .bodyDive {
+      width: 100%;
+      border-radius: 0px;
+  
+      margin-top: 0%;
+    }
+  }
+  @media (max-width: 768px) {
+    body {
+      background-color: #212122;
+    }
+    .bodyDive {
+      width: 100%;
+      border-radius: 0px;
+  
+      margin-top: 0%;
+    }
+    .sectionFirst{
+      flex-flow: column;
+    }
+    .educationSection{
+      margin-bottom: 10%;
+    }
+  }
+  @media (max-width: 576px) {
+
+    .bodyDive{
+    }
+    .projectline{
+      flex-flow: column;
+    }
+    .projectHref{
+      width: 80%;
+      margin: auto auto;
+      margin-bottom: 15%;
+    }
+    .codeLine{
+      flex-flow: column;
+    }
+    .divbar{
+      width: 80%;
+      margin: auto auto;
+      margin-bottom: 6%;
+
+    }
+    .divbarRight{
+      width: 80%;
+      margin: auto auto;
+      margin-bottom: 6%;
+
+    }
+
+  }

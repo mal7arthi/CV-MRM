@@ -1,0 +1,332 @@
+body {
+  background-color: #9c9c9c;
+  text-align: center;
+  color: white;
+  overflow: auto;
+}
+
+body p {
+  color: rgb(196, 194, 194);
+}
+body a {
+  text-decoration: none;
+}
+
+body a:hover{
+  color: white;
+
+}
+
+.nav-link{
+
+}
+.nav-link:hover{
+  color: white;
+}
+
+.bodyDive {
+  background-color: #132028;
+  margin: auto;
+  top: 0;
+  bottom: 0;
+  position: relative;
+  left: 0;
+  right: 0;
+  width: 76%;
+  height: 300%;
+  border-radius: 45px;
+  padding-top: 2%;
+  margin-top: 3%;
+}
+a {
+  color: white;
+  font-weight: bold;
+}
+nav {
+  padding-top: 1%;
+  padding: 5%;
+}
+.nav-item {
+  margin: 20px;
+  font-size: 1.1em;
+}
+
+.nav-link.active {
+  color: white;
+}
+.nav-link {
+  color: gray;
+}
+.avatar {
+  vertical-align: middle;
+  width: 300px;
+  height: 300px;
+  border-radius: 50%;
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.avatarDiv,
+.divImageText {
+  display: inline-block;
+  width: 30%;
+  vertical-align: middle;
+  text-align: start;
+}
+.divImageText{
+  width: 40%;
+}
+.avatarDiv {
+  vertical-align: middle;
+  width: 330px;
+  height: 330px;
+  border-radius: 50%;
+  background-color: #434444;
+  margin-right: 5%;
+  position: relative;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+}
+.jopclass {
+  color: gainsboro;
+  font-weight: lighter;
+  margin-bottom: 3%;
+}
+.nameclass {
+  color: white;
+  font-weight: bold;
+  margin-bottom: 8%;
+}
+.infoclass {
+  color: rgb(196, 194, 194);
+  text-align: justify;
+}
+.firstSection {
+  margin-top: 5%;
+}
+
+.buttonhome {
+  background-color: #323333;
+  color: white;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-top: 1.5%;
+  padding-bottom: 2%;
+  border-radius: 50px;
+  box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+#cvbutton {
+  border: 3px solid #9c9c9c;
+}
+#contactbutton {
+  border: 2px solid #9c9c9c;
+  margin-left: 3%;
+}
+#contactbutton:hover {
+  background-color: white;
+  color: black;
+}
+#cvbutton:hover {
+  background-color: white;
+  color: black;
+}
+.heaedingWhatDo {
+  font-weight: bold;
+  font-size: 2em;
+  text-align: left;
+  margin-top: 5%;
+}
+.line {
+  height: 2px;
+  background-color: gray;
+  width: 105px;
+  display: inline-block;
+  margin-left: 0px;
+  margin-right: -4px;
+  text-align: left;
+  position: relative;
+  bottom: 15px;
+}
+.idline {
+  background-color: #434444;
+  width: 45px;
+}
+.mainLine {
+  text-align: left;
+  margin: 0% 9%;
+  margin-top: 7%;
+}
+
+.whatDiv {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 2% 9%;
+}
+.insidwhat {
+  width: 100%;
+  text-align: justify;
+  margin-left: 6%;
+}
+h4 {
+  font-weight: bold;
+}
+.imgDiv2 {
+}
+.whatDiv2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: start;
+  margin: 3% 9%;
+}
+.funDiv {
+  background-color: #323233;
+  border: 2px solid #434444;
+  border-radius: 10px;
+  width: 23%;
+  padding: 3% 0%;
+}
+.funDiv2 {
+  background-color: #323233;
+  border: 2px solid #434444;
+  border-radius: 10px;
+  margin-left: 4%;
+  width: 23%;
+  padding: 3% 0%;
+}
+.funDiv3 {
+  background-color: #323233;
+  border: 2px solid #434444;
+  border-radius: 10px;
+  margin-left: 4%;
+  width: 23%;
+  padding: 3% 0%;
+}
+.funDiv4 {
+  background-color: #323233;
+  /* padding: 3% 0%; */
+  border: 2px solid #434444;
+  border-radius: 10px;
+  margin-left: 4%;
+  width: 23%;
+  padding: 3% 0%;
+}
+.imagefunIcons {
+  margin-bottom: 8%;
+}
+.titleFuniconstxt {
+  font-weight: bold;
+  margin-bottom: 5%;
+}
+.numFuntxt {
+  font-weight: bold;
+  font-size: 3em;
+  font-weight: 400;
+  color: #d4d4d5;
+}
+.icon {
+  margin-right: 2%;
+}
+.footerDiv {
+  margin-top: 10%;
+  width: 100%;
+}
+footer {
+  margin-bottom: 5px;
+  padding-bottom: 1%;
+}
+.whatlineInside{
+  display: flex;
+  flex-flow: row;
+  margin: 0% auto;
+  width: 45%;
+}
+@media (max-width: 992px) {
+  body {
+    background-color: #212122;
+  }
+  .bodyDive {
+    width: 100%;
+    border-radius: 0px;
+
+    margin-top: 0%;
+  }
+}
+@media (max-width: 768px) {
+  body {
+    background-color: #212122;
+  }
+  .avatarDiv,
+.divImageText {
+  display: block;
+  margin: auto auto;
+  margin-top: 10%;
+}
+.divImageText{
+  width: 70%;
+}
+  .bodyDive {
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 0%;
+  }
+  
+}
+@media (max-width: 576px) {
+  body {
+    background-color: #212122;
+  }
+  .avatarDiv,
+.divImageText {
+  display: block;
+  margin: auto auto;
+  margin-top: 10%;
+}
+.divImageText{
+  width: 70%;
+}
+  .bodyDive {
+    width: 100%;
+    border-radius: 0px;
+    margin-top: 0%;
+  }
+
+  .whatDiv{
+    flex-flow: column;
+  }
+  .whatDiv2{
+    flex-flow: column;
+  }
+  .whatlineInside{
+    display: flex;
+    flex-flow: row;
+    margin: auto auto;
+    width: 100%;
+  }
+  .funDiv{
+    width: 100%;
+  }
+  .funDiv2{
+    width: 100%;
+    margin: auto auto;
+    margin-top: 4%;
+  }
+  .funDiv3{
+    width: 100%;
+    margin: auto auto;
+    margin-top: 4%;
+
+  }
+  .funDiv4{
+    width: 100%;
+    margin: auto auto;
+    margin-top: 4%;
+
+  }
+
+  
+}
